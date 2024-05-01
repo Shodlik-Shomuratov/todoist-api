@@ -1,0 +1,7 @@
+{
+	"build": "tsc",
+	"dev": "nodemon",
+	"postinstall": "npm run build",
+	"lint": "eslint . --ext .ts",
+	"lint-fix": "eslint . --ext .ts --fix"
+}
